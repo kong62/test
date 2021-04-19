@@ -10,9 +10,9 @@ var (
 	AppVersion   string // 应用版本
 	BuildVersion string // 编译版本
 	BuildTime    string // 编译时间
-	GitRevision  string // Git版本
-	GitBranch    string // Git分支
-	GoVersion    string // Golang信息
+	GitRevision  string // Git 版本
+	GitBranch    string // Git 分支
+	GoVersion    string // Golang 信息
 )
 
 func main() {
