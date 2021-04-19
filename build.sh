@@ -3,11 +3,6 @@
 set -e
 
 PROJECT_NAME="app-api"
-BINARY="app-api"
-
-OUTPUT_DIR=output
-GOOS=$(go env GOOS)
-
 APP_NAME=${PROJECT_NAME}
 APP_VERSION=$(git log -1 --oneline)
 BUILD_VERSION=$(git log -1 --oneline)
